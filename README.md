@@ -37,9 +37,9 @@
   <button onclick="alert('Thanks for clicking!')">Click Me</button><br><br>
 <script>
   function toggleDarkMode() {
-    document.body.classList.toggle('dark');
+   document.body.classList.toggle('dark');
 
-    const btn = document.getElementById('themeToggle');
+  const btn = document.getElementById('themeToggle');
     if (document.body.classList.contains('dark')) {
       btn.textContent = "☀️ Light Mode";
     } else {
