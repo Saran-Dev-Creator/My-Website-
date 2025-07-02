@@ -7,15 +7,15 @@
     body {
       font-family: sans-serif;
       text-align: center;
-      padding: 20px;
+      padding: 40px;
     }
     h1 {
-      color: #333;
-      animation: fadeIn 2s ease-in-out;
+      color: #44;
+      animation: fadeIn 5s ease-in-out;
     }
     @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
+      from {opacity: 2;}
+      to {opacity: 4;}
     }
     img {
       width: 100%;
