@@ -30,4 +30,11 @@
   <button onclick="alert('Thanks for clicking!')">Click Me</button><br><br>
 </body>
 </html>
+<h2>Contact Me</h2>
+<form action="https://formspree.io/f/moqgywnl" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required><br><br>
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
+  <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+  <button type="submit">Send</button>
+</form>
 
