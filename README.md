@@ -21,3 +21,5 @@
 
 <a href="about.html">About Me</a> |
 <a href="contact.html">Contact</a>
+
+<img src="https://your-image-link.com/image.jpg" alt="My Image" width="300">
