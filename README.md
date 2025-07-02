@@ -1,45 +1,33 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
+<head>
+  <title>My Mobile Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: #f0f0f0;
-      text-align: center;
       font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
     }
     h1 {
       color: #333;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    img {
+      width: 100%;
+      max-width: 400px;
     }
   </style>
 </head>
 <body>
-  <h1>Hello, This is My Website!</h1>
-  <p>Made with ❤️ on my mobile</p>
+  <h1>Welcome to My Website</h1>
+  <img src="https://picsum.photos/300" alt="Random Image">
+  <p>This is a sample mobile-friendly site.</p>
+  <button onclick="alert('Thanks for clicking!')">Click Me</button><br><br>
+  <a href="about.html">Go to About Page</a>
 </body>
 </html>
-
-<img src="https://ibb.co/JW2J1n6P/300" alt="My Image" width="300">
-
-<button onclick="alert('Thanks for clicking!')">Click Me</button>
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>About Page</title>
-</head>
-<body>
-  <h1>About Me</h1>
-  <p>This is my About page.</p>
-  <a href="index.html">Go Home</a>
-</body>
-</html>
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-h1 {
-  animation: fadeIn 2s ease-in-out;
-}
