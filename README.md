@@ -25,3 +25,15 @@
 <img src="https://ibb.co/JW2J1n6P/300" alt="My Image" width="300">
 
 <button onclick="alert('Thanks for clicking!')">Click Me</button>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Page</title>
+</head>
+<body>
+  <h1>About Me</h1>
+  <p>This is my About page.</p>
+  <a href="index.html">Go Home</a>
+</body>
+</html>
