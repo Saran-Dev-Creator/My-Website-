@@ -24,8 +24,8 @@
       to {opacity: 4;}
     }
     img {
-      width: 100%;
-      max-width: 400px;
+      width: 500%;
+      max-width: 800px;
     }
   </style>
 </head>
