@@ -59,6 +59,11 @@
   }
 </script>
 </body>
+<h1 data-aos="fade-up">Welcome to My Website</h1>
+
+<p data-aos="zoom-in">This paragraph will zoom in on scroll.</p>
+
+<img src="https://picsum.photos/300" data-aos="flip-left" alt="Image">
 <h2 data-aos="fade-right">My Projects</h2>
 <p data-aos="zoom-in" data-aos-delay="200">Cool stuff I’ve built on mobile!</p>
 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
