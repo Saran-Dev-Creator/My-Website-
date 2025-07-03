@@ -59,6 +59,9 @@
   }
 </script>
 </body>
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+  I fade in after 0.3 seconds and take 1 second!
+</div>
 <h2 data-aos="fade-right">My Projects</h2>
 <p data-aos="zoom-in" data-aos-delay="200">Cool stuff I’ve built on mobile!</p>
 
