@@ -30,28 +30,8 @@
   <button onclick="alert('Thanks for clicking!')">Click Me</button><br><br>
 </body>
 </html>
-
-<body>
-  <button onclick="toggleTheme()" id="theme-toggle">☀️ light Mode</button>
-  <p>This site supports light mode!</p>
-
-  <script>
-    function toggleTheme() {
-      const body = document.body;
-      const button = document.getElementById("theme-toggle");
-
-      body.classList.toggle("light-mode");
-
-      if (body.classList.contains("light-mode")) {
-        button.textContent = "☀️ Light Mode";
-      } else {
-        button.textContent = "🌙 Dark Mode";
-      }
-    }
-  </script>
-
-  <script>
-  // Load saved theme on page load
+ <script>
+ // Load saved theme on page load
   window.onload = () => {
     const savedTheme = localStorage.getItem("theme");
     const body = document.body;
