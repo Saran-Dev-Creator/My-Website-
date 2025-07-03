@@ -58,7 +58,11 @@
     }
   }
 </script>
-</body>
+</body <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>>
 <h1 data-aos="fade-up">Welcome to My Website</h1>
 
 <p data-aos="zoom-in">This paragraph will zoom in on scroll.</p>
