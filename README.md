@@ -8,6 +8,8 @@
            font-family: sans-serif;
            text-align: center;
            padding: 20px;
+           transition: background-color 0.5s ease, color 0.5s ease;
+}
     }
     h1 {
       color: #44;
