@@ -34,10 +34,8 @@
 </html>
 <body>
   <button onclick="toggleTheme()" id="theme-toggle">☀️ light Mode</button>
-  <h1>Welcome to My Website</h1>
   <p>This site supports light mode!</p>
   <script>
-  // Load saved theme on page load
    window.onload = () => {
     const savedTheme = localStorage.getItem("theme");
     const body = document.body;
@@ -47,7 +45,6 @@
       button.textContent = "☀️ Light Mode";
     }
   };
-  // Toggle theme and save to localStorage
   function toggleTheme() {
     const body = document.body;
     const button = document.getElementById("theme-toggle");
