@@ -17,10 +17,10 @@
     }
     h1 {
       color: #44;
-      animation: fadeIn 5s ease-in-out;
+      animation: fadeIn 10s ease-in-out;
     }
     @keyframes fadeIn {
-      from {opacity: 2;}
+      from {opacity: 0;}
       to {opacity: 4;}
     }
     img {
