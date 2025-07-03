@@ -36,21 +36,17 @@
     const savedTheme = localStorage.getItem("theme");
     const body = document.body;
     const button = document.getElementById("theme-toggle");
-
-    if (savedTheme === "dark") {
+   if (savedTheme === "dark") {
       body.classList.add("dark-mode");
       button.textContent = "☀️ Light Mode";
     }
   };
-
   // Toggle theme and save to localStorage
   function toggleTheme() {
     const body = document.body;
     const button = document.getElementById("theme-toggle");
-
-    body.classList.toggle("dark-mode");
-
-    if (body.classList.contains("dark-mode")) {
+   body.classList.toggle("dark-mode");
+   if (body.classList.contains("dark-mode")) {
       localStorage.setItem("theme", "dark");
       button.textContent = "☀️ Light Mode";
     } else {
