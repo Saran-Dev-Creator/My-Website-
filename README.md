@@ -30,8 +30,7 @@
   <button onclick="alert('Thanks for clicking!')">Click Me</button><br><br>
 </body>
 </html>
- <script>
- // Load saved theme on page load
+<script>
   window.onload = () => {
     const savedTheme = localStorage.getItem("theme");
     const body = document.body;
@@ -41,7 +40,6 @@
       button.textContent = "☀️ Light Mode";
     }
   };
-  // Toggle theme and save to localStorage
   function toggleTheme() {
     const body = document.body;
     const button = document.getElementById("theme-toggle");
