@@ -29,7 +29,7 @@
   <p>This is a sample mobile-friendly site.</p>
   <button onclick="alert('Thanks for clicking!')">Click Me</button><br><br>
 </body>
-</html>
+
 <body>
   <button onclick="toggleTheme()" id="theme-toggle">☀️ light Mode</button>
   <h1>Welcome to My Website</h1>
