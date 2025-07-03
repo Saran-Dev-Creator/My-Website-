@@ -59,6 +59,8 @@
   }
 </script>
 </body>
+<h2 data-aos="fade-right">My Projects</h2>
+<p data-aos="zoom-in" data-aos-delay="200">Cool stuff I’ve built on mobile!</p>
 
 
 
