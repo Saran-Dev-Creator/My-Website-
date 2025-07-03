@@ -9,7 +9,7 @@
            text-align: center;
            padding: 20px;
            <h2>Contact Me</h2>
-           <form action="https://formspree.io/f/moqgywnl" method="POST">
+          <form action="https://formspree.io/f/moqgywnl" method="post">
            <input type="text" name="name"  placeholder="Your Name" required><br> <br>
            <input type="email" name="email" placeholder="Your Email" required><br><br>
            <textarea name="message"  placeholder="Your Message" required>   </textarea><br><br>
