@@ -28,7 +28,23 @@
       width: 500%;
       max-width: 800px;
     }
-  </style>
+  input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
 </head>
 <body>
   <h1>Welcome to My Website</h1>
