@@ -49,6 +49,36 @@
       }
     }
   </script>
+
+  <script>
+  // Load saved theme on page load
+  window.onload = () => {
+    const savedTheme = localStorage.getItem("theme");
+    const body = document.body;
+    const button = document.getElementById("theme-toggle");
+
+    if (savedTheme === "dark") {
+      body.classList.add("dark-mode");
+      button.textContent = "☀️ Light Mode";
+    }
+  };
+
+  // Toggle theme and save to localStorage
+  function toggleTheme() {
+    const body = document.body;
+    const button = document.getElementById("theme-toggle");
+
+    body.classList.toggle("dark-mode");
+
+    if (body.classList.contains("dark-mode")) {
+      localStorage.setItem("theme", "dark");
+      button.textContent = "☀️ Light Mode";
+    } else {
+      localStorage.setItem("theme", "light");
+      button.textContent = "🌙 Dark Mode";
+    }
+  }
+</script>
 </body>
 
 
