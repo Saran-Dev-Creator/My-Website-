@@ -35,17 +35,30 @@
   <h1>Welcome to My Website</h1>
   <p>This site supports light mode!</p>
   <script>
-    function toggleTheme() {
-      const body = document.body;
-      const button = document.getElementById("theme-toggle");
-    body.classList.toggle("light-mode");
-      if (body.classList.contains("light-mode")) {
-        button.textContent = "☀️ Light Mode";
-      } else {
-        button.textContent = "🌙 Dark Mode";
-      }
+  // Load saved theme on page load
+   window.onload = () => {
+    const savedTheme = localStorage.getItem("theme");
+    const body = document.body;
+    const button = document.getElementById("theme-toggle");
+    if (savedTheme === "dark") {
+      body.classList.add("dark-mode");
+      button.textContent = "☀️ Light Mode";
     }
-  </script>
+  };
+  // Toggle theme and save to localStorage
+  function toggleTheme() {
+    const body = document.body;
+    const button = document.getElementById("theme-toggle");
+    body.classList.toggle("dark-mode");
+    if (body.classList.contains("dark-mode")) {
+      localStorage.setItem("theme", "dark");
+      button.textContent = "☀️ Light Mode";
+    } else {
+      localStorage.setItem("theme", "light");
+      button.textContent = "🌙 Dark Mode";
+    }
+  }
+</script>
 </body>
 
 
